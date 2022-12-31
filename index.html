@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Foods</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="container">
+            <header id="navbar">
+                <a href="#" class="logo">Good<span>Foods</span></a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span class="menuIcon" onclick="menuToggle();"></span>
+            </header>
+            <div class="content">
+                <div class="bannerText" id="slideshowText">
+                    <div class="active">
+                        <h2>EAT Healthy<br>
+                        Stay Healthy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, esse possimus
+                        asperiores, perspiciatis necessitatibus suscipit odit nostrum ratione
+                        Totam, consequuntur esse modi.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    
+                    <div>
+                        <h2>Eat Your<br>
+                        Veggies</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, esse possimus
+                        asperiores, perspiciatis placeat odit nostrum ratione
+                        Totam, consequuntur esse modi.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    
+                    <div>
+                        <h2>Good Food<br>
+                        Good Mood</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, esse possimus
+                        asperiores, perspiciatis placeat odit nostrum ratione
+                        Totam, consequuntur esse modi.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="bannerImg" id="slideshow">
+                    <img src="images/food.png" class="active">
+                    <img src="images/food_2.jpg">
+                    <img src="images/food_3.jpg">
+                </div>
+            </div>
+            <div class="icons">
+                <ul class="sci">
+                    <li><a href="#"><img src="images/facebook.png"></a></li>
+                    <li><a href="#"><img src="images/twitter.png"></a></li>
+                    <li><a href="#"><img src="images/instagram.png"></a></li>
+                </ul>
+                <ul class="controls">
+                    <li><a href="#"><img src="images/left.png" onclick="prevSlide();prevSlideText()"></a></li>
+                    <li><a href="#"><img src="images/right.png" onclick="nextSlide();nextSlideText()"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
